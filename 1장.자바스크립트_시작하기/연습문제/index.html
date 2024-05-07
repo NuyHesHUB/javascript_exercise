@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1장.자바스크립트_시작하기_연습문제</title>
+</head>
+<body>
+    <br/>
+    <hr/>
+    <h3>1-1 웹에서 프런트엔드와 백엔드의 역할과 프런트엔드 개발자에 대해서 설명하시오.</h3>
+    <br/>
+    <h5>정답</h5>
+    <p>프론트엔드는 백엔드와의 데이터 통신을 해서 데이터를 받아와서 화면에 보여주는 역할을 한다. 백엔드는 사용자가 필요로하는 데이터를 저장 및 관리를 하며 전달하는 역할을 한다.</p>
+    <br/>
+    <hr/>
+    <br/>
+    <h3>1-2 다음은 '안녕!'을 브라우저 화면에 출력하는 프로그램입니다. 밑줄 친 부분을 채워 프로그램을 완성하시오.</h3>
+    <br/>
+    <h5>문제</h5>
+    <pre><code>
+        &lt;id="show"&gt;&lt;/p&gt;
+        &lt;script&gt;
+            document.getElementById('__________').__________ = '안녕!';
+        &lt;/script&gt;
+    </code></pre>
+    <h5>정답</h5>
+    <pre><code>
+        &lt;id="show"&gt;&lt;/p&gt;
+        &lt;script&gt;
+            document.getElementById('show').innerHTML = '안녕!';
+        &lt;/script&gt;
+    </code></pre>
+    <!-- 
+    <p id="show"></p>
+    <script>
+        document.getElementById('show').innerHTML = '안녕!';
+    </script> 
+    -->
+    <br/>
+    <hr/>
+    <h3>1-3 다음은 '안녕!'을 알림창에 출력하는 프로그램입니다. 밑줄 친 부분을 채워 프로그램을 완성하시오.</h3>
+    <h5>문제</h5>
+    <pre><code>
+        &lt;script&gt;
+            __________('안녕!');
+        &lt;/script&gt;
+    </code></pre>
+    <h5>정답</h5>
+    <pre><code>
+        &lt;script&gt;
+            alert('안녕!');
+        &lt;/script&gt;
+    </code></pre>
+    <!-- 
+    <script>
+        alert('안녕!');
+    </script>
+     -->
+    <br/>
+    <hr/>
+    <h3>1-4 다음은 '안녕!'을 브라우저 개발자 도구의 콘솔에 출력하는 프로그램입니다. 밑줄 친 부분을 채워 프로그램을 완성하시오.</h3>
+    <h5>문제</h5>
+    <pre><code>
+        &lt;script&gt;
+            __________('안녕!');
+        &lt;/script&gt;
+    </code></pre>
+    <h5>정답</h5>
+    <pre><code>
+        &lt;script&gt;
+            console.log('안녕!');
+        &lt;/script&gt;
+    </code></pre>
+    <!-- 
+    <script>
+        console.log('안녕!');
+    </script>
+     -->
+    <br/>
+    <hr/>
+    <h3>1-5 다음 중 자바스크립트에서 한 줄을 주석 처리하는 데 사용되는 기호는?</h3>
+    <h5>문제</h5>
+    <pre><code>
+        1. #
+        2. %
+        3. ""
+        4. //
+    </code></pre>
+    <h5>정답</h5>
+    <pre><code>
+        4. //
+    </code></pre>
+    <br/>
+    <hr/>
+    <h3>1-6 다음 중 자바스크립트에서 여러 줄을 주석처리하는 데 사용되는 기호는?</h3>
+    <h5>문제</h5>
+    <pre><code>
+        1. &lt;!--  --&gt;
+        2. #
+        3. /*, */
+        4. //
+    </code></pre>
+    <h5>정답</h5>
+    <pre><code>
+        1. &lt;!--  --&gt;
+    </code></pre>
+    <br/>
+    <hr/>
+</body>
+</html>
